@@ -1,0 +1,179 @@
+/* *
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+body {
+    font-family: "Roboto" sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+h1 {
+    font-weight: 100;
+}
+
+header {
+    background-color: rgb(16, 189, 247);
+    color: white;
+    padding: 10px;
+    text-align:center;
+}
+
+header img  {
+    width: auto;
+    height: auto;
+    border-radius: 0%;
+    margin; 0 auto;      
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 10px  ;
+    justify-content: space-between;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: blueviolet;
+    text-decoration: none;
+    background-color: none;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+
+}
+
+nav ul li a:hover  {
+    background-color: #d5eaff;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/*Main Styles*/
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: aliceblue;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: rgb(122, 217, 249);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    
+  }
+  
+  /* Navigation Styles */
+  
+  nav {
+    background-color: black;
+    padding: 20px;
+    border: 1px solid #add;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  nav li {
+    margin-bottom: 10px;
+  }
+  
+  nav a {
+    color: whitesmoke;
+    font-size: 200%;
+    
+    text-decoration: none;
+  }
+  
+  nav a:hover {
+    color: rgb(177, 18, 18);
+  }
+  
+  /* Main Styles */
+  
+  main {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  /* Card Styles */
+  
+  .card {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* List Styles */
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Footer Styles */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+  }
+  
+  footer img {
+    width: 20px;
+    height: 15px;
+  }
+  
